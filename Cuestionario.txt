@@ -1,0 +1,7 @@
+Commit: en español significa "comprometer", es el que sube el codigo en cada cambio.
+
+Merge: en español significa "mezcla", es el que une las ramas.
+
+Diferencias entre Pull y Push:
+Push sube el codigo final con todos los cambios y Pull baja la version del codigo que
+fue guardada (subida) por ultima vez.
