@@ -1,0 +1,25 @@
+Analisis de requerimientos:  los desarrolladores trazan su plan e intentan crear el mejor y más conveniente modelo de 
+software para el proyecto. El análisis del sistema inclye el entendimiento de las limitaciones del producto Software, 
+el aprendizaje de los problemas relacionados con el sistema, los cambios que se requieren en sistemas ya existentes 
+con antelación, identificando y dirigiendo el impacto del proyecto a la organización y al personal, etc. El equipo del 
+proyecto analiza las posibilidades del proyecto y planifica la temporalización y los recursos correspondientes.
+
+Diseño:  Diseñar el producto software con la ayuda de toda la información recogida sobre requisitos y análisis. Los 
+inputs de los usuarios y los resultados de la recogida de información hecha en la fase anterior seran las aportaciones 
+base de la fase actual. El output de esta etapa toma la forma de 2 diseños: el diseño lógico y el diseño físico. Los 
+ingenieros crean Metadatos, Diagramas dilógicos, diagramas de flujo de datos, y en algunos casos pseudocódigos.
+
+Desarrollo:  La implementación del diseño de software empieza con el lenguaje de programación más conveniente, y 
+desarrollando programas ejecutables y sin errores de manera eficiente.
+
+Pruebas:  Se estima que el 50% de todos los procesos de desarrollo de software deberían ser evaluados. Los errores pueden 
+arruinar el software tanto a nivel crítico y hasta el punto de ser eliminado. Las pruebas de Software se hacen mientras 
+se codifica y suelen hacerlo los desarrolladores y otros expertos evaluadores a varios niveles. Esto incluye evaluación 
+de módulos, evaluación del programa, evaluación del producto, evaluación interna y finalmente evaluación con el 
+consumidor final. Encontrar errores y su remedio a tiempo es la llave para conseguir un software fiable.
+
+Mantenimiento:  Confirma el funcionamiento del software en términos de más eficiencia y menos errores. Si se requiere, 
+los usuarios se forman, o se les presta documentación sobre como operar y como mantenerlo en funcionamiento. El software 
+se mantiene de forma temprana actualizando el código en acorde a los cambios que tienen lugar en entornos del usuario o 
+tecnológicos. Esta fase puede que tenga que encarar retos originados por virus ocultos o problemas no identificados del 
+mundo real.

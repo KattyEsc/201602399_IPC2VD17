@@ -1,0 +1,10 @@
+Desarrollo Iterativo Incremental:
+En un desarrollo iterativo e incremental el proyecto se planifica en diversos bloques temporales. Emplea secuencias 
+escalonadas que proporcionan incrementos del producto.
+
+Las iteraciones se pueden entender como miniproyectos: en todas las iteraciones se repite un proceso de trabajo similar 
+(de ahí el nombre "iterativo") para proporcionar un resultado completo sobre producto final, de manera que el cliente 
+pueda obtener los beneficios del proyecto de forma incremental. Para ello, cada requisito se debe completar en una única 
+iteración: el equipo debe realizar todas las tareas necesarias para completarlo y que esté preparado para ser entregado 
+al cliente con el mínimo esfuerzo necesario. De esta manera no se deja para el final del proyecto ninguna actividad 
+arriesgada relacionada con la entrega de requisitos.

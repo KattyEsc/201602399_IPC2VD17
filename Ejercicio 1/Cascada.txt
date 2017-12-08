@@ -1,0 +1,10 @@
+Modelo en Cascada:
+El modelo de cascada es el modelo de paradigma más simple en desarrollo de software. Sigue un modelo en que las fases 
+del SDLC funcionarán una detrás de la otra de forma lineal. Lo que significa que solamente cuando la primera fase se 
+termina se puede empezar con la segunda, y así progresivamente.
+
+Este modelo asume que todo se lleva a cabo y tiene lugar tal y como se había planeado en la fase anterior, y no es 
+necesario pensar en asuntos pasados que podrían surgir en la siguiente fase. Este modelo no funcionará correctamente si 
+se dejan asuntos de lado en la fase previa. La naturaleza secuencial del modelo no permite volver atrás y deshacer o 
+volver a hacer acciones. Este modelo es recomendable cuando el desarrollador ya ha diseñado y desarrollado softwares 
+similares con anterioridad, y por eso está al tanto de todos sus dominios.
