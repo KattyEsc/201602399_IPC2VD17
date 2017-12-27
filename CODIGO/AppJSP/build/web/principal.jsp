@@ -1,3 +1,10 @@
+<%-- 
+    Document   : principal
+    Created on : 26-dic-2017, 22:20:47
+    Author     : Katty
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -13,6 +20,12 @@
 
 </head>
 <body>
+    <%-- 
+     <h1>Bienvenido
+            <jsp:useBean id="validUsuario" scope="session" class="Clases.Empleado" />
+            <jsp:getProperty name="validUsuario" property="nombres" />
+    </h1> 
+    --%>
 		<header>
 			<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
 				<div class="container">
