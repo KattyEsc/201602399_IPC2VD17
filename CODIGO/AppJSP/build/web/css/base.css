@@ -1,0 +1,19 @@
+.header{
+    background-color: #000000;
+    color: #fff;
+    font-size: 200%;
+    height: 50px;
+    padding: 15px;
+}
+
+.bottom{
+    background-color: #ddd;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.content{
+    padding: 20px;
+}
+
