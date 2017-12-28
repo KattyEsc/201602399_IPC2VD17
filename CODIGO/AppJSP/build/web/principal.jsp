@@ -11,8 +11,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>Warlock Soft</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/estilos.css" >
+	<link rel="stylesheet" href="css.css/bootstrap.min.css">
+	<link rel="stylesheet" href="css.css/estilos.css" >
 
 	<script type="text/javascript">
 		alert("Bienvenido a Warlock Soft!");
@@ -20,12 +20,11 @@
 
 </head>
 <body>
-    <%-- 
-     <h1>Bienvenido
-            <jsp:useBean id="validUsuario" scope="session" class="Clases.Empleado" />
-            <jsp:getProperty name="validUsuario" property="nombres" />
+    
+    <h1>Bienvenido
+        <jsp:useBean id="validUsuario" scope="session" class="ws.Empleado" />
+        <jsp:getProperty name="validUsuario" property="nombre" />
     </h1> 
-    --%>
 		<header>
 			<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
 				<div class="container">

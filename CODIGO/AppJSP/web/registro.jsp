@@ -13,7 +13,7 @@
     <body>
         <h1>REGISTRAR USUARIO</h1>
         
-        <form action="SRegistrar" method="POST">
+        <form action="SRegistra" method="POST">
             <table border="0">
 
                 <tbody>
@@ -23,18 +23,18 @@
                     </tr>
                     <tr>
                         <td>Nickname:</td>
-                        <td><input type="password" name="txtNnick" value="" /></td>
+                        <td><input type="text" name="txtNick" value="" /></td>
                     </tr>
                     <tr>
                         <td>Contraseña:</td>
-                        <td><input type="text" name="txtPass" value="" /></td>
+                        <td><input type="password" name="txtPass" value="" /></td>
                     </tr>
                     <tr>
-                        <td>Nombre</td>
+                        <td>Nombre:</td>
                         <td><input type="text" name="txtNombre" value="" /></td>
                     </tr>
                     <tr>
-                        <td>Apellido</td>
+                        <td>Apellido:</td>
                         <td><input type="text" name="txtApellido" value="" /></td>
                     </tr>
                     <tr>

@@ -19,7 +19,7 @@ public class VerificaEmpleado {
         Connection accessDB = conexion.CONECTAR();
         try {
             
-            PreparedStatement ps = accessDB.prepareStatement("select * from usuario where nickname=? and pass=?");
+            PreparedStatement ps = accessDB.prepareStatement("SELECT * FROM usuario WHERE nickname=? AND pass=?");
             ps.setString(1, nickname);
             ps.setString(2, contraseña);
             
@@ -43,7 +43,7 @@ public class VerificaEmpleado {
         String respuesta="Registro exitoso";
         Connection accessDB = conexion.CONECTAR();
         try {
-            PreparedStatement ps = accessDB.prepareStatement("insert into usuario(id,nickname,pass,nombre,apellido) values (?,?,?,?,?)");
+            PreparedStatement ps = accessDB.prepareStatement("INSERT INTO usuario(IDU,nickname,pass,nombre,apellido) VALUES (?,?,?,?,?)");
             ps.setString(1, id);
             ps.setString(2, nickname);
             ps.setString(3, pass);

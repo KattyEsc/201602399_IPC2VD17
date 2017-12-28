@@ -12,7 +12,7 @@
     </head>
     <body>
         <h1 style="text-align: left;">LOGIN USUARIO</h1>
-        <form action="SAutentificacion" method="POST">
+        <form action="SVerifica" method="POST">
             <table border="0" style="margin-left: 10%;">
                 <tbody>
                     <tr>
