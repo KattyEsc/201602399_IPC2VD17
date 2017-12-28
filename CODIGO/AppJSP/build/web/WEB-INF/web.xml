@@ -4,9 +4,25 @@
         <servlet-name>Scategoria</servlet-name>
         <servlet-class>servlets.Scategoria</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Sindex</servlet-name>
+        <servlet-class>servlets.Sindex</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Slogin</servlet-name>
+        <servlet-class>servlets.Slogin</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Scategoria</servlet-name>
         <url-pattern>/scategoria</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Sindex</servlet-name>
+        <url-pattern>/sindex</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Slogin</servlet-name>
+        <url-pattern>/slogin</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

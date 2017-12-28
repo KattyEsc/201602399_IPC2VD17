@@ -2,13 +2,13 @@
 <%@ page pageEncoding="UTF-8" %>
 <div>
     <div class="header">
-        Warlock Soft
+        <h2>Warlock Soft</h2> 
         <div>
-            <a href="index" class="btn btn-mini btn-primary">Inicio</a>
-            <a href="SCategoria" class="btn btn-mini btn-primary">Asociaciones</a>
-            <a href="SCategoria" class="btn btn-mini btn-primary">Habilidades</a>
-            <a href="SCategoria" class="btn btn-mini btn-primary">Proyecto / Tareas</a>
-            <a href="categoria?op=perfil" class="btn btn-mini btn-primary">Perfil</a>
+            <a href="sindex" class="btn btn-primary btn-success" type="button">Inicio</a>
+            <a href="scategoria" class="btn btn-primary btn-success" type="button">Asociaciones</a>
+            <a href="scategoria" class="btn btn-primary btn-success" type="button">Habilidades</a>
+            <a href="scategoria" class="btn btn-primary btn-success" type="button">Proyecto / Tareas</a>
+            <a href="scategoria?op=perfil" class="btn btn-primary btn-success" type="button">Perfil</a>
         </div>
     </div>
     <div class="content">

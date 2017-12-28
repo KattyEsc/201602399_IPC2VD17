@@ -12,13 +12,12 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
 
 /**
  *
  * @author Katty
  */
-public class Scategoria extends HttpServlet {
+public class Slogin extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -32,10 +31,20 @@ public class Scategoria extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-        
+        try (PrintWriter out = response.getWriter()) {
+            /* TODO output your page here. You may use following sample code. */
+            out.println("<!DOCTYPE html>");
+            out.println("<html>");
+            out.println("<head>");
+            out.println("<title>Servlet Slogin</title>");            
+            out.println("</head>");
+            out.println("<body>");
+            out.println("<h1>Servlet Slogin at " + request.getContextPath() + "</h1>");
+            out.println("</body>");
+            out.println("</html>");
+        }
     }
-    
-    
+
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**
      * Handles the HTTP <code>GET</code> method.
@@ -50,36 +59,18 @@ public class Scategoria extends HttpServlet {
             throws ServletException, IOException {
         String op=request.getParameter("op");
         String pagina;
-        if(op.equals("asociacion")){
+        if(op.equals("registrar")){
             
-           pagina="/categorias/asociacion.jsp";
-           RequestDispatcher dispatcher= getServletContext().getRequestDispatcher(pagina);
-           dispatcher.forward(request, response);
-           
-        }else if(op.equals("habilidad")){
+            pagina="/registro.jsp";
+            RequestDispatcher dispatcher= getServletContext().getRequestDispatcher(pagina);
+            dispatcher.forward(request, response);
             
-           pagina="/categorias/habilidad.jsp";
-           RequestDispatcher dispatcher= getServletContext().getRequestDispatcher(pagina);
-           dispatcher.forward(request, response);
-           
-        }else if(op.equals("proyectotarea")){
+        } else{
             
-           pagina="/categorias/proytar.jsp";
-           RequestDispatcher dispatcher= getServletContext().getRequestDispatcher(pagina);
-           dispatcher.forward(request, response);
-           
-        }else if(op.equals("perfil")){
+            pagina="/index.jsp";
+            RequestDispatcher dispatcher= getServletContext().getRequestDispatcher(pagina);
+            dispatcher.forward(request, response);
             
-           pagina="/categorias/perfil.jsp";
-           RequestDispatcher dispatcher= getServletContext().getRequestDispatcher(pagina);
-           dispatcher.forward(request, response);
-           
-        }else{
-            
-           pagina="/principal.jsp";
-           RequestDispatcher dispatcher= getServletContext().getRequestDispatcher(pagina);
-           dispatcher.forward(request, response);
-           
         }
     }
 

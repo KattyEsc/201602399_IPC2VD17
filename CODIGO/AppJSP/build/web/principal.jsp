@@ -12,9 +12,9 @@
         
         <title>Warlock Soft</title>
 	
-        <script type="text/javascript">
+        <%--    <script type="text/javascript">
 		alert("Bienvenido a Warlock Soft!");
-	</script>
+	</script> --%>
 </head>
 <body>
     

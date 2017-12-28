@@ -8,14 +8,20 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <%@include  file="WEB-INF/jspf/jscss.jspf"%>
+        <title>Bienvenido a Warlock Soft!</title>
     </head>
     <body>
-        <h1>REGISTRAR USUARIO</h1>
         
-        <form action="SRegistra" method="POST">
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+                
+        <%@include  file="WEB-INF/jspf/topindex.jspf"%>
+        <div>
+                    
+            <h1>REGISTRAR USUARIO</h1>
+            <form action="SRegistra" method="POST">
             <table border="0">
-
                 <tbody>
                     <tr>
                         <td>Id:</td>
@@ -42,7 +48,9 @@
                     </tr>
                 </tbody>
             </table>
-
         </form>
+            
+        </div>
+        <%@include  file="WEB-INF/jspf/bottomindex.jspf"%>
     </body>
 </html>
