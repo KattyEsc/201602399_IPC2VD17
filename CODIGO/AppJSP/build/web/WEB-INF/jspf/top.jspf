@@ -5,10 +5,11 @@
         <h2>Warlock Soft</h2> 
         <div>
             <a href="sindex" class="btn btn-primary btn-success" type="button">Inicio</a>
-            <a href="scategoria" class="btn btn-primary btn-success" type="button">Asociaciones</a>
-            <a href="scategoria" class="btn btn-primary btn-success" type="button">Habilidades</a>
-            <a href="scategoria" class="btn btn-primary btn-success" type="button">Proyecto / Tareas</a>
+            <a href="scategoria?op=asociacion" class="btn btn-primary btn-success" type="button">Asociaciones</a>
+            <a href="scategoria?op=habilidad" class="btn btn-primary btn-success" type="button">Habilidades</a>
+            <a href="scategoria?op=proyectotarea" class="btn btn-primary btn-success" type="button">Proyecto / Tareas</a>
             <a href="scategoria?op=perfil" class="btn btn-primary btn-success" type="button">Perfil</a>
+            <a href="scategoria?op=salir" class="btn btn-primary btn-success" type="button">Cerrar Sesion</a>
         </div>
     </div>
     <div class="content">

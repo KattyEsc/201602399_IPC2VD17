@@ -74,6 +74,12 @@ public class Scategoria extends HttpServlet {
            RequestDispatcher dispatcher= getServletContext().getRequestDispatcher(pagina);
            dispatcher.forward(request, response);
            
+        }else if(op.equals("salir")){
+            
+           pagina="/index.jsp";
+           RequestDispatcher dispatcher= getServletContext().getRequestDispatcher(pagina);
+           dispatcher.forward(request, response);
+            
         }else{
             
            pagina="/principal.jsp";

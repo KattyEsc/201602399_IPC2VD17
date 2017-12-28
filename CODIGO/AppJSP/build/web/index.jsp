@@ -36,7 +36,7 @@
                     </table>
                 </form>
         </div>
-            <%@include  file="WEB-INF/jspf/bottomindex.jspf"%>
+        <%@include  file="WEB-INF/jspf/bottom.jspf"%>
         
     </body>
 </html>

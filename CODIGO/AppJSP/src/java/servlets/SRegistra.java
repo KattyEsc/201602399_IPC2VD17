@@ -7,6 +7,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import javax.xml.ws.WebServiceRef;
 import ws.WSEmpleado_Service;
 
@@ -38,6 +39,8 @@ public class SRegistra extends HttpServlet {
         String nombre=request.getParameter("txtNombre");
         String apellido=request.getParameter("txtApellido");
         registra(id, nickname, pass, nombre, apellido);
+        
+        response.sendRedirect("index.jsp");
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
